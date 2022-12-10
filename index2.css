@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.navbar{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+.navbar-left{
+    margin-right: 200px;
+}
+.navbar-right{
+    margin-left: 200px;
+}
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-link{
+    margin-right:30px;
+    font-weight: lighter;
+    font-size: small;
+}
+.nav-link:hover{
+    color:rgb(0, 106, 255);
+    font-weight:500;
+}
+
+.nav-logo-left{
+    width : 35px;
+}
+.nav-logo-right{
+    width : 25px;
+    margin-right: 5px;
+    border-radius: 100%;
+}
+.nav-logo-name-left{
+    position: relative;
+    bottom:10px;
+    left: 5px;
+    font-weight: 500;
+}
+.nav-logo-name-right{
+    font-size:small;
+}
+
+
+
+
+
+
+
+.navbar2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.navbar2-div1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+.navbar2-div{
+    margin-right: 100px;
+}
+.navbar2-div1-div1{
+    border:1px solid grey;
+    border-radius: 3px;
+    padding:3px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.product-designing{
+    color:#0162ff;
+    font-weight: 200;
+    font-size: 0.7rem;
+
+}
+.find-job{
+    background-color:#0162ff;
+    color: white;
+    padding: 10px;
+    border-radius:5px ;
+    margin-left: 20px;
+}
+.new-delhi{
+    font-weight: 100;
+    font-size: small;
+}
+
+
+
+
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.left-menu{
+    width: 80%;;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.left-menu-search{
+    margin: 15px;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: hsl(215, 100%, 81%);
+}
+.checkbox{
+    display: inline;
+}
+.left-menu-subdiv{
+    display: flex;
+    margin-top:20px;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.create-job-alert-button{
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    background: #0162ff;
+    padding: 8px 22px 11px 24px;
+    text-decoration: none;
+}
+.create-job-alert-button:hover{
+    background: #3cb0fd;
+        text-decoration: none;
+}
+.container-right-three{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.container-right-three-subdiv{
+    margin-right: 5px;
+    font-size: 10px;
+    background-color: hwb(204 74% 2%);
+    padding: 4px;
+    border-radius: 3px;
+    color: #0162ff;
+    font-weight: 500;
+}
+.create-job-alert-text{
+    font-size: small;
+    font-weight: 700;
+}
+.create-job-alert-para{
+    font-size: small;
+    font-weight: 400;
+    color: #424242;
+}
+
+
+
+.container-right-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container-right-subdiv{
+    width: 90%;
+    margin-bottom: 30px;
+}
+.Apply{
+    margin-right: 10px;
+    -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  background: #0162ff;
+  padding: 8px 22px 11px 24px;
+  text-decoration: none;
+}
+.Apply:hover{
+        background: #3cb0fd;
+        text-decoration: none;
+
+}
+.Message{
+    margin-right: 10px;
+    -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 12px;
+  background: lightgrey;
+  padding: 8px 22px 11px 24px;
+  text-decoration: none;
+}
+.right-image{
+    width:30px
+}
+.right-para-subdiv{
+    color: grey;
+    font-size: small;
+}
+
+
+label{
+    font-weight: 200;
+    color: grey;
+    font-size: small;
+}
+
+.laptop{
+    width : 70%;
+    align-items: center;
+    border-radius: 5px;
+}
+.section-open{
+    align-items: center;
+
+}
+.subsection{
+    align-items: center;
+}
+.paragraph{
+    padding:10px;
+    font-size: medium;
+    line-height: 30px;
+}
