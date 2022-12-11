@@ -3,6 +3,9 @@
     margin: 0;
     font-family: sans-serif;
 }
+body{
+    background-color: hwb(210 96% 3%);
+}
 
 
 .navbar{
@@ -111,8 +114,8 @@
 }
 
 .left-menu{
-    width: 80%;;
-    margin-left: 30px;
+    width: 60%;;
+    margin-left: 50px;
     display: flex;
     flex-direction: column;
     margin-right: 30px;
@@ -121,10 +124,13 @@
     margin: 15px;
     border-radius: 5px;
     padding-left: 20px;
-    background-color: hsl(215, 100%, 81%);
+    background-color:#e8f2ff;
 }
 .checkbox{
     display: inline;
+    width: 20px;
+    height: 17px;
+    border-radius: 5px;
 }
 .left-menu-subdiv{
     display: flex;
@@ -179,8 +185,12 @@
     flex-wrap: wrap;
 }
 .container-right-subdiv{
-    width: 33%;
+    width: 28%;
     margin-bottom: 30px;
+    background-color: white;
+    margin:10px;
+    border-radius: 12px;
+    padding:10px;
 }
 .Apply{
     margin-right: 10px;
@@ -224,4 +234,20 @@ label{
     font-weight: 200;
     color: grey;
     font-size: small;
+    margin-left: 10px;
+}
+.checkbox-div{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.left-menu-h4{
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.create-job-alert-search{
+    width: 90%;;
+    height: 30px;
+    border: 0;;
+    border-radius: 3px;
+
 }
